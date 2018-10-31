@@ -1,4 +1,4 @@
-# CIPT
+CIPT
 Conecta: Informatica Para Todos!
 
 Tivemos a ideia de criar um site para poder ajudar pessoas que estao iniciando em TI, a ideia inicial seria de criar uma biblioteca virtual de repositório, mas a ideia foi se expandindo e pensamos de forma geral “Dar voz a quem não pôde falar”, ou seja dar uma melhor oportunidade para quem nao esta familiarizado com programaçao, web design, segurança e tal, dando a oportunidade de aprender com a criação do projeto, vamos dividir entre equipes as tarefas, propondo desafios e metas semanais, sendo elas compostas por pessoas que se consideram iniciantes e tem vontade de aprender, intermediários e avançados para darem apoio e instruir o andamento do projeto. Pensamos tambem em prestar serviços sem fins lucrativos, para institutos, instituições de caridade, asilos, ONGs,  que não tem muita visada, condições financeiras, afim de auxilia-la e por ai deixar o projeto crescer por si só...
