@@ -36,6 +36,8 @@ Colaboradores:
 	Ricardo - Intermediario -> Back-End;
 	Vanessa - Iniciante -> HTML5 e CSS;
 	Guilherme - Iniciante -> HTML; CSS; PHP; Java; BD e SQL;
+	Gleison Oliveira - Iniciante -> HTML; CSS; Python; Django e 
+Bootstrap;
 	
 Consultores:
 	Ricardo Pierre Junior -> Consultor Full Stack; UI e UX;
