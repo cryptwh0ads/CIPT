@@ -19,7 +19,7 @@ Colaboradores:
 	Henrique - Iniciante -> C#; HTML; CSS; MySQL e Java(Iniciando);
 	Diego - Intermediário (ADS) -> HTML; CSS e JS;
 	Hugo Cabral - Intermediário -> HTML; CSS; JS; Bootstrap; codeigniter; PHP; WordPress entre outros...
-	Altieres - Iniciante (Eng. Software) -> Redes; Manutenção; Python e HTML;
+	Altieres - Iniciante (Eng. Software e Eng. da Comp) -> Redes; Manutenção; Python e HTML;
 	Wellington Dias - Iniciante -> HTML5; CSS; C++ e PL/SQL;
 	Claudio - Eng. da Comp.(Finalizado); Iniciante/Intermediário(Dev Web) -> C++; Java; C; MySQL; HTML5; PHP e CSS;
 	Felipe - Iniciante (Dev. Front-End) -> HTML; CSS e JS;
