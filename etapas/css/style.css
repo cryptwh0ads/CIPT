@@ -102,3 +102,9 @@ h2.subs-title  {
     font-size: 34px;
     padding: 30px 0px 20px;
 }
+a.subs-title{
+	font-family: 'Lobster', cursive;
+    font-size: 18px;
+	padding: 30px 0px 20px;
+	color: white;
+}
