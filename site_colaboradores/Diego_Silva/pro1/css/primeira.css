@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+body {
+    background: url('../image/empresa.jpg')no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 ;
+}
+
+h1, h2, h3, h4{
+		font-weight: auto;
+		text-transform: uppercase;
+	}
+h1, p, h4 {
+    text-align: center;
+}
+
+	h2 {
+		font-size: 1.65em;
+		font-weight: 400;
+		letter-spacing: 4px;
+		line-height: 1.75em;
+	}
+
+	h3 {
+		font-size: 1em;
+		letter-spacing: 2px;
+		margin: 0 0 1.25em 0;
+	}
+
+a:hover {
+    color:chocolate;
+    text-decoration: none;
+}
+
+    a:hover strong {
+        color: chocolate;
+    }
+#cabecalho
+{
+	position: relative;
+	text-align: center;
+}
+	
+	#cabecalho h1
+	{
+		font-family: 'fontelogo', sans-serif;
+		font-weight: 700;
+		color: #808080;
+		text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+		font-size: 3em;
+		letter-spacing: 10px;
+	}
+		
+	#cabecalho p
+	{
+		text-transform: uppercase;
+		font-weight: 400;
+		color: #888;
+		margin: 2.5em 0 0 0;
+		font-size: 0.85em;
+		letter-spacing: 5px;
+		text-align: center;
+	}
+
+.navbar {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 3em;
+    bottom: auto;
+}
+
+.navbar a {
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    float:left;
+    display: block;
+}
+
+.navbar a:hover {
+    color:chocolate;
+}
+
+.navbar a.active {
+    color: chocolate;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar a:not(first-child) {
+        display: none;
+    } .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        
+    }
+    #cabecalho h2 {
+        margin-top: 210px;
+    }
+}
+
+.central {
+    display: block;
+    float:center;
+    margin: 10px;
+	padding: 10px 10px;
+	position: relative;
+	overflow: hidden;
+}
+.central h3 {
+    text-align: center;
+    background-color:#fff;
+    padding: 10px;
+}
+
+.cent 
+{
+    padding-left: 8%;
+    overflow: hidden;
+    list-style: none;
+}
+
+@media only screen and (max-width: 640px) {
+    .cent {
+        width: 80%;
+    }
+} 
+
+.cent li {
+    float: left;
+    width:400px;
+    height:300px;
+    margin:0 30px;
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+    .cent li {
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+.post {
+    clear: both;
+    background-color: #fff;
+    margin: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10em 0;
+}
+.post h2 {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+}
+@media only screen and (max-width: 500px) {
+    .post {
+        margin: 10%;
+    }
+}
+
+.corpo {
+	display: block;
+	width: 100%;
+    float:left;
+	padding: 10px 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.main
+{
+    width: 47%;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    list-style: none;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
+}
+article#box {
+    background-color: #fff;
+	font-size: 20pt;
+	color: #606060;
+	padding: 5px 0px 5px 10px;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    article#box {
+        width: 80%;
+        margin-left: 15px;
+    }
+}
+.lateral
+{
+    width: 47%;
+    margin: 0;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    text-align:center;
+}
+
+.lateral ul {
+    background-color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .lateral {
+        width: 90%;
+    }
+} 
+
+.footer {
+    clear: both;
+}
+
+.footer h3{
+    padding: 20px;
+    text-align: left;
+    width: 110px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+	form input[type="text"],
+	form input[type="email"]
+	input[type="password"],
+	form select,
+	form textarea {
+		-moz-transition: background-color 0.25s ease-in-out;
+		-webkit-transition: background-color 0.25s ease-in-out;
+		-ms-transition: background-color 0.25s ease-in-out;
+		transition: background-color 0.25s ease-in-out;
+		-webkit-appearance: none;
+		display: block;
+		border: 0;
+        margin-left: 10px;
+		width: 50%;
+		box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		line-height: 1.25em;
+		padding: 0.75em 1em 0.75em 1em;
+        margin-left: 20px;
+	}
+
+		form input[type="text"]:focus,
+		form input[type="email"]
+		input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+		}
+
+	form textarea {
+		min-height: 11em;
+        font-family: 'Source Sans Pro';
+		font-weight: 300px;
+		line-height: 1.65em;
+		font-size: 15pt;
+	}
+form input[type="image"] {
+    margin: 20px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer p {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+

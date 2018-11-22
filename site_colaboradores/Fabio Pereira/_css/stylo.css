@@ -1,0 +1,128 @@
+@font-face {
+    font-family: alfa;
+    src: url('../_fonts/AlfaSlabOne-Regular.ttf');
+    font-size: 40px;
+}
+
+@font-face {
+
+    font-family: kalam;
+    src: url('../_fonts/Kalam-Bold.ttf');
+}
+
+@font-face {
+    font-family chakra;
+    src: url('../fonts/ChakraPetch-Regular.ttf');
+}
+
+body {
+
+    background: url('../apple-code-codes-574069.jpg');
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-sizing: 100%;
+}
+
+#mySidevav {
+    position: fixed;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.8s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+#mySidenav a:hover {
+    left: 0px;
+
+    transition: 0s;
+}
+
+#inicio {
+    top: 120px;
+    background-color: #4caf50;
+}
+
+#principio {
+    top: 180px;
+    background-color: #2196F3;
+}
+
+#sobre {
+    top: 240px;
+    background-color: #f44336;
+}
+
+#solucoes {
+    top: 300px;
+    background-color: #FF8C00;
+}
+
+#colaborador {
+
+    top: 360px;
+    background-color: #008B8B;
+
+}
+
+
+#etapas {
+    top: 445px;
+    background-color: #CD00CD;
+}
+
+
+.principal {
+
+    position: absolute;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #E8E8E8;
+}
+
+.texto {
+
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 15%;
+    background-color: rgba(211, 211, 211, .6);
+    border-radius: 15px;
+    padding: 5px;
+    width: 400px;
+}
+
+.texto h2 {
+    width: auto;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-family: alfa;
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+}
+
+.texto p {
+
+    font-family: Chakra;
+    font-size: 16px;
+    text-align: center;
+}
+
+.te p {
+    text-align: left;
+}
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+    body
+        {
+            background-image:url(../_imagens/apple-code-codes-574069.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    p
+        {
+            text-align: justify;
+        }
+
+    div#interface
+        {
+        column-count: 2;
+        }
+
+    

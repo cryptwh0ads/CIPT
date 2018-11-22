@@ -1,0 +1,52 @@
+* {margin: 0; padding: 0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal; box-sizing:border-box; border: none; outline: none;}
+img {max-width: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2 { font-size: 1.5em; color: #333;}
+p {font-size: 1em; color: #777;}
+/* CABEÇALHO */
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 50px;
+	background-color: #13c7ae;
+}
+.form-search{
+	width:  80%;
+    background-clip: padding-box;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    color: #495057;
+    font-size: 1rem;
+    height: calc(2.25rem + 2px);
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+}
+.logo a { width: 497px; height:286px; float: left; background: url(../img/logo.png) no-repeat; font-size: 0;}
+.cabecalho form {width: 30%; float: right;}
+.cabecalho input [type="text"]{width: 85%; float:left; padding: 15px 10px; border-radius: 5px 0 0 5px;}
+.cabecalho button {width: 15%; float: right;padding: 15px 10px; background-color: #0cae98;color: #fff; cursor: pointer; border-radius: 0 5px 5px 0;}
+/* MENU */
+.menu {
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	 display: flex; 
+	background-color: #111;
+	 padding: 18px 8%;
+}
+.menu li{float: left;}
+.menu li a{color: #9d9d9d; margin-right: 25px;}
+.menu li a:hover {color: #fff;}
+/* SOCIAL ICONS */
+.social-icons { float: right; }
+.social-icons a {color: #fff; float: left; margin-left: 12px;}
+.btn-facebook:hover {color: #3B5998;}
+.btn-twitter:hover {color:#54A4D6 ;} 
+.btn-google:hover {color: #D73D32;}
