@@ -1,0 +1,14 @@
+.banner {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6), rgba(46,46,46,0.5)), url("http://unsplash.it/400/300/?random");
+  background-size: cover;
+  height: 100vh;
+  /*viewport height */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content {
+  color:white;
+  text-align: center;
+}
